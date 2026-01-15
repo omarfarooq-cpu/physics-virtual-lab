@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Physics-Virtul-Lab | Distance-Time Graph</title>
+        <meta name="viewport" content="width=device width, initial scale=1.0">
+        <script
+        src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Physics Virtual Lab</h1>
+        <h2>Distance-Time Graph Simulation</h2>
+        <div class="controls">
+            <label for="speed">Speed(m/s):</label>
+            <input type="number" id="speed" value="5" min="1" max="20">
+            <button onclick="drawGraph()">Simulate</button>
+        </div>
+        <div class="chart-container">
+            <canvas id="DistanceTimeChart"></canvas>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
