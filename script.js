@@ -7,7 +7,7 @@ function drawGraph(){
     time.push(t);
     distance.push(speed*t)
     }
-    const ctx=document.getElementById(DistanceTimeChart).getConstext("2d");
+    const ctx=document.getElementById(distanceTimeChart).getConstext("2d");
     if(chart){
         chart.destroy();
     }
